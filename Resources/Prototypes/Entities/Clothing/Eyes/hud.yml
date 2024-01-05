@@ -11,7 +11,7 @@
   - type: ShowHealthBars
     damageContainers: 
     - Inorganic
-    - Silicon
+
 
 - type: entity
   parent: ClothingEyesBase
