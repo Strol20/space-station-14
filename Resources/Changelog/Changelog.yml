@@ -1,71 +1,4 @@
 ﻿Entries:
-- author: themias
-  changes:
-  - message: Fixed riot shield audio and popup spam
-    type: Fix
-  id: 5218
-  time: '2023-11-28T07:06:38.0000000+00:00'
-- author: UbaserB
-  changes:
-  - message: Blood now has a sprite when placed in metamorphic glasses.
-    type: Add
-  id: 5219
-  time: '2023-11-28T07:09:56.0000000+00:00'
-- author: metalgearsloth
-  changes:
-  - message: Fix global audio not being global.
-    type: Fix
-  - message: Update MIDI audio every frame rather than every 1/10 seconds to fix positioning
-      and occlusion weirdness.
-    type: Tweak
-  id: 5220
-  time: '2023-11-28T09:48:18.0000000+00:00'
-- author: metalgearsloth
-  changes:
-  - message: Fix audio not playing during weather.
-    type: Fix
-  id: 5221
-  time: '2023-11-28T12:35:38.0000000+00:00'
-- author: metalgearsloth
-  changes:
-  - message: Fix some sound sources not playing positionally (e.g. glass breaking).
-    type: Fix
-  id: 5222
-  time: '2023-11-28T23:19:23.0000000+00:00'
-- author: metalgearsloth
-  changes:
-  - message: Removed artifact spam on roundend due to the ensuing lag.
-    type: Remove
-  id: 5223
-  time: '2023-11-29T03:39:16.0000000+00:00'
-- author: metalgearsloth
-  changes:
-  - message: Fix doppler effect on shuttles by also setting player's velocity in the
-      audio API.
-    type: Fix
-  - message: Fix left-right ear weirdness caused by floating-point imprecision on
-      audio positioning.
-    type: Fix
-  id: 5224
-  time: '2023-11-29T05:44:45.0000000+00:00'
-- author: metalgearsloth
-  changes:
-  - message: Fix getting stuck between tables.
-    type: Fix
-  id: 5225
-  time: '2023-11-29T13:23:21.0000000+00:00'
-- author: metalgearsloth
-  changes:
-  - message: Fix remaining audio left-right transitioning too quickly.
-    type: Fix
-  id: 5226
-  time: '2023-11-30T00:56:08.0000000+00:00'
-- author: lzk228
-  changes:
-  - message: Skeletons are zombie immune now.
-    type: Tweak
-  id: 5227
-  time: '2023-11-30T02:40:39.0000000+00:00'
 - author: MACMAN2003
   changes:
   - message: Added a green central command cap like the captain's blue one.
@@ -3757,3 +3690,80 @@
   id: 5718
   time: '2024-01-15T09:30:37.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/24117
+- author: Nimfar11
+  changes:
+  - message: Adds the ability to build blast doors.
+    type: Add
+  id: 5719
+  time: '2024-01-15T12:49:08.0000000+00:00'
+  url: https://api.github.com/repos/space-wizards/space-station-14/pulls/24050
+- author: Boaz1111
+  changes:
+  - message: Reinforced Glass and Reinforced Plasma Glass no longer bubble randomly
+    type: Fix
+  id: 5720
+  time: '2024-01-16T03:43:18.0000000+00:00'
+  url: https://api.github.com/repos/space-wizards/space-station-14/pulls/24135
+- author: tday
+  changes:
+  - message: Explosion and Chemical Reaction admin logs now use grid-relative coordinates
+      when possible.
+    type: Fix
+  id: 5721
+  time: '2024-01-16T07:53:46.0000000+00:00'
+  url: https://api.github.com/repos/space-wizards/space-station-14/pulls/24136
+- author: Dygon
+  changes:
+  - message: Flare shells now embed into whatever they hit.
+    type: Tweak
+  - message: Flare shells ignite mobs again.
+    type: Fix
+  id: 5722
+  time: '2024-01-16T09:17:05.0000000+00:00'
+  url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23648
+- author: Ubaser
+  changes:
+  - message: Resprited buckets.
+    type: Tweak
+  id: 5723
+  time: '2024-01-16T13:47:53.0000000+00:00'
+  url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23866
+- author: Lank
+  changes:
+  - message: Added a new "follow" command.
+    type: Add
+  - message: Replaced the ahelp menu's "Teleport to" verb with "Follow".
+    type: Tweak
+  id: 5724
+  time: '2024-01-17T01:26:15.0000000+00:00'
+  url: https://api.github.com/repos/space-wizards/space-station-14/pulls/24142
+- author: Dygon
+  changes:
+  - message: Water gun and spray nozzle projectiles now properly collide with objects.
+    type: Fix
+  id: 5725
+  time: '2024-01-17T08:21:59.0000000+00:00'
+  url: https://api.github.com/repos/space-wizards/space-station-14/pulls/24175
+- author: Veritius
+  changes:
+  - message: You can now dramatically execute cuffed people.
+    type: Add
+  - message: You can now kill yourself with guns.
+    type: Add
+  id: 5726
+  time: '2024-01-17T08:45:45.0000000+00:00'
+  url: https://api.github.com/repos/space-wizards/space-station-14/pulls/24150
+- author: TurboTrackerss14
+  changes:
+  - message: Added Mothroach Burger.
+    type: Add
+  id: 5727
+  time: '2024-01-17T08:46:34.0000000+00:00'
+  url: https://api.github.com/repos/space-wizards/space-station-14/pulls/24156
+- author: Ubaser
+  changes:
+  - message: Robohand gloves now have a unique sprite and can be found in the RoboDrobe.
+    type: Tweak
+  id: 5728
+  time: '2024-01-17T10:03:01.0000000+00:00'
+  url: https://api.github.com/repos/space-wizards/space-station-14/pulls/24182
