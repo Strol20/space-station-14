@@ -1,0 +1,437 @@
+- type: entity
+  parent: BaseItem
+  id: CardBox
+  name: cardbox
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: card_servise
+  - type: Tag
+    tags:
+    - Card
+  - type: Item
+    size: Tiny
+
+- type: entity
+  parent: BaseItem
+  id: CardBase
+  name: Card
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: base
+  - type: Tag
+    tags:
+    - Card
+  - type: Item
+    size: Tiny
+
+# Diamond
+
+- type: entity
+  parent: CardBase
+  id: CardDiamond5
+  name: Diamond
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: diamonds-5
+
+- type: entity
+  parent: CardBase
+  id: CardDiamond6
+  name: Hearts
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: diamonds-6
+
+- type: entity
+  parent: CardBase
+  id: CardDiamond7
+  name: Hearts
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: diamonds-7
+
+- type: entity
+  parent: CardBase
+  id: CardDiamond8
+  name: Hearts
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: diamonds-8
+
+- type: entity
+  parent: CardBase
+  id: CardDiamond9
+  name: Hearts
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: diamonds-9
+
+- type: entity
+  parent: CardBase
+  id: CardDiamond10
+  name: Hearts
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: diamonds-10
+
+- type: entity
+  parent: CardBase
+  id: CardDiamondJuilet
+  name: Hearts
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: diamonds-juliet
+
+- type: entity
+  parent: CardBase
+  id: CardDiamondQueen
+  name: Hearts
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: diamonds-queen
+
+- type: entity
+  parent: CardBase
+  id: CardDiamondKing
+  name: Hearts
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: diamonds-king
+
+- type: entity
+  parent: CardBase
+  id: CardDiamondAce
+  name: Hearts
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: diamonds-ace
+
+#Clubs
+
+- type: entity
+  parent: CardBase
+  id: CardClubs5
+  name: Clubs
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: clubs-5
+
+- type: entity
+  parent: CardBase
+  id: CardClubs6
+  name: Hearts
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: clubs-6
+
+- type: entity
+  parent: CardBase
+  id: CardClubs7
+  name: Hearts
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: clubs-7
+
+- type: entity
+  parent: CardBase
+  id: CardClubs8
+  name: Hearts
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: clubs-8
+
+- type: entity
+  parent: CardBase
+  id: CardClubs9
+  name: Hearts
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: clubs-9
+
+- type: entity
+  parent: CardBase
+  id: CardClubs10
+  name: Hearts
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: clubs-10
+
+- type: entity
+  parent: CardBase
+  id: CardClubsJuilet
+  name: Hearts
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: clubs-juilet
+
+- type: entity
+  parent: CardBase
+  id: CardClubsQueen
+  name: Hearts
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: clubs-queen
+
+- type: entity
+  parent: CardBase
+  id: CardClubsKing
+  name: Hearts
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: clubs-king
+
+- type: entity
+  parent: CardBase
+  id: CardClubsAce
+  name: Hearts
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: clubs-ace
+
+#Hearts
+
+- type: entity
+  parent: CardBase
+  id: CardHearts5
+  name: Hearts
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: hearts-5
+
+- type: entity
+  parent: CardBase
+  id: CardHearts6
+  name: Hearts
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: hearts-6
+
+- type: entity
+  parent: CardBase
+  id: CardHearts7
+  name: Hearts
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: hearts-7
+
+- type: entity
+  parent: CardBase
+  id: CardHearts8
+  name: Hearts
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: hearts-8
+
+- type: entity
+  parent: CardBase
+  id: CardHearts9
+  name: Hearts
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: hearts-9
+
+- type: entity
+  parent: CardBase
+  id: CardHearts10
+  name: Hearts
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: hearts-10
+
+- type: entity
+  parent: CardBase
+  id: CardHeartsJuilet
+  name: Hearts
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: hearts-juilet
+
+- type: entity
+  parent: CardBase
+  id: CardHeartsQueen
+  name: Hearts
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: hearts-queen
+
+- type: entity
+  parent: CardBase
+  id: CardHeartsKing
+  name: Hearts
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: hearts-king
+
+- type: entity
+  parent: CardBase
+  id: CardHeartsAce
+  name: Hearts
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: hearts-ace
+
+#Spades
+
+- type: entity
+  parent: CardBase
+  id: CardSpades5
+  name: Spades
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: spades-5
+
+- type: entity
+  parent: CardBase
+  id: CardSpades6
+  name: Spades
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: spades-6
+
+- type: entity
+  parent: CardBase
+  id: CardSpades7
+  name: Spades
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: spades-7
+
+- type: entity
+  parent: CardBase
+  id: CardSpades8
+  name: Spades
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: spades-8
+
+- type: entity
+  parent: CardBase
+  id: CardSpades9
+  name: Spades
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: spades-9
+
+- type: entity
+  parent: CardBase
+  id: CardSpades10
+  name: Spades
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: spades-10
+
+- type: entity
+  parent: CardBase
+  id: CardSpadesJuilet
+  name: Spades
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: spades-juilet
+
+- type: entity
+  parent: CardBase
+  id: CardSpadesQueen
+  name: Spades
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: spades-queen
+
+- type: entity
+  parent: CardBase
+  id: CardSpadesKing
+  name: Spades
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: spades-king
+
+- type: entity
+  parent: CardBase
+  id: CardSpadesAce
+  name: Spades
+  description: 
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/card.rsi
+    state: spades-ace

@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from cev-eris at https://github.com/discordia-space/CEV-Eris/commit/aed9cbddbf9039dae1e4f02bab592248b0539431",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "box"
+    },
+    {
+      "name": "base"
+    },
+    {
+      "name": "clubs-5"
+    },
+    {
+      "name": "clubs-6"
+    },
+    {
+      "name": "clubs-7"
+    },
+    {
+      "name": "clubs-8"
+    },
+    {
+      "name": "clubs-9"
+    },
+    {
+      "name": "clubs-10"
+    },
+    {
+      "name": "clubs-juliet"
+    },
+    {
+      "name": "clubs-queen"
+    }, 
+    {
+      "name": "clubs-king"
+    },
+    {
+      "name": "clubs-ace"
+    },
+    {
+      "name": "hearts-5"
+    },
+    {
+      "name": "hearts-6"
+    },
+    {
+      "name": "hearts-7"
+    },
+    {
+      "name": "hearts-8"
+    },
+    {
+      "name": "hearts-9"
+    },
+    {
+      "name": "hearts-10"
+    },
+    {
+      "name": "hearts-juliet"
+    },
+    {
+      "name": "hearts-queen"
+    },
+    {
+      "name": "hearts-king"
+    },
+    {
+      "name": "hearts-ace"
+    },
+    {
+      "name": "diamonds-5"
+    },
+    {
+      "name": "diamonds-6"
+    },
+    {
+      "name": "diamonds-7"
+    },
+    {
+      "name": "diamonds-8"
+    },
+    {
+      "name": "diamonds-9"
+    },
+    {
+      "name": "diamonds-10"
+    },
+    {
+      "name": "diamonds-juliet"
+    },
+    {
+      "name": "diamonds-queen"
+    },
+    {
+      "name": "diamonds-king"
+    },
+    {
+      "name": "diamonds-ace"
+    },
+    {
+      "name": "spades-5"
+    },
+    {
+      "name": "spades-6"
+    },
+    {
+      "name": "spades-7"
+    },
+    {
+      "name": "spades-8"
+    },
+    {
+      "name": "spades-9"
+    },
+    {
+      "name": "spades-10"
+    },
+    {
+      "name": "spades-juliet"
+    },
+    {
+      "name": "spades-queen"
+    },
+    {
+      "name": "spades-king"
+    },
+    {
+      "name": "spades-ace"
+    }
+  ]
+}
