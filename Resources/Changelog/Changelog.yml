@@ -1,25 +1,4 @@
 ﻿Entries:
-- author: DogZeroX
-  changes:
-  - message: Changed the announcement of the immovable rod event.
-    type: Tweak
-  id: 6500
-  time: '2024-04-30T04:05:14.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/27515
-- author: DogZeroX
-  changes:
-  - message: Flares looped sound no longer have a massive range, and are much quieter.
-    type: Fix
-  id: 6501
-  time: '2024-04-30T06:49:35.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/27521
-- author: ERORR404V1
-  changes:
-  - message: Added chameleon projector in thief toolbox!
-    type: Add
-  id: 6502
-  time: '2024-04-30T12:14:06.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/27491
 - author: DamnFeds
   changes:
   - message: honkbot now uses a happy honk meal instead of box of hugs and clown's
@@ -3780,3 +3759,24 @@
   id: 6999
   time: '2024-07-29T08:29:27.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/29736
+- author: Blackern5000
+  changes:
+  - message: Emergency oxygen and fire lockers now generally contain more supplies
+    type: Tweak
+  id: 7000
+  time: '2024-07-29T09:57:04.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/29230
+- author: Moomoobeef
+  changes:
+  - message: Added the ability to wear lizard plushies on your head!
+    type: Add
+  id: 7001
+  time: '2024-07-29T12:52:40.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/30400
+- author: TurboTrackerss14
+  changes:
+  - message: Reduced Kobold ghostrole chance to mirror Monkey
+    type: Tweak
+  id: 7002
+  time: '2024-07-29T15:16:54.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/30450
