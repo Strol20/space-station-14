@@ -65,3 +65,112 @@
   - type: Tag
     tags:
     - VimPilot
+
+- type: entity
+  name: shadow frog with horn
+  parent: BaseShadowMob
+  id: MobFrogShadow
+  description: A lovely piece of darkness. Hope he doesn't bring you a curse.
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base", "movement"]
+      state: frog
+      sprite: Mobs/Animals/froghorns.rsi
+  - type: SpriteMovement
+    movementLayers:
+      movement:
+        state: frog-moving
+    noMovementLayers:
+      movement:
+        state: frog
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.2
+        density: 5
+        mask:
+        - SmallMobMask
+        layer:
+        - SmallMobLayer
+  - type: InteractionPopup
+    successChance: 0.6
+    interactSuccessString: petting-success-frog
+    interactFailureString: petting-failure-generic
+    interactSuccessSpawn: EffectHearts
+    interactSuccessSound:
+      path: /Audio/Animals/frog_ribbit.ogg
+  - type: Grammar
+    attributes:
+      gender: epicene
+  - type: Tag
+    tags:
+    - VimPilot
+
+- type: entity
+  name: shadow hog
+  parent: BaseShadowMob
+  id: MobHogShadow
+  description: A lovely piece of darkness. Hope he doesn't bring you a curse.
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: pig
+      sprite: Mobs/Animals/hog.rsi
+  - type: ReplacementAccent
+    accent: pig
+  - type: Physics
+  - type: InteractionPopup
+    successChance: 0.7
+    interactSuccessString: petting-success-pig
+    interactFailureString: petting-failure-generic
+    interactSuccessSpawn: EffectHearts
+    interactSuccessSound:
+      path: /Audio/Animals/pig_oink.ogg
+  - type: Grammar
+    attributes:
+      gender: epicene
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - Pig
+    - VimPilot
+
+- type: entity
+  name: Shadow owl
+  parent: [ BaseShadowMob]
+  id: MobOwlShadow
+  description: Infiltrates your domain, spies on you, and somehow still a cool pet.
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 6
+    baseSprintSpeed : 6
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: parrot
+      sprite: Mobs/Animals/parrot.rsi
+  - type: Speech
+    speechSounds: Parrot
+    speechVerb: Parrot
+  - type: Vocal
+    sounds:
+      Unsexed: Parrot
+  - type: ParrotAccent
+  - type: InteractionPopup
+    successChance: 0.6
+    interactSuccessString: petting-success-bird
+    interactFailureString: petting-failure-generic
+    interactSuccessSpawn: EffectHearts
+    interactSuccessSound:
+      path: /Audio/Animals/parrot_raught.ogg
+
+
+
